@@ -3,6 +3,7 @@ import Electric from "./components/Electric"
 import Navbar from "./components/Navbar"
 import Gallery from "./components/Gallery"
 import Footer from "./components/Footer"
+import Slots from "./components/Slots"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Hero />
         <Electric />
+        <Slots />
         <Gallery />
         <Footer />
     </>
