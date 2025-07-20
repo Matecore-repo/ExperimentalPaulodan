@@ -6,7 +6,7 @@ import tercera from '../resources/Tercera.jpeg';
 const Leadership: React.FC = () => {
     return (
         <>
-<section className="w-full py-16 px-4">
+<section id='gallery' className="w-full py-16 px-4">
   <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-20">
     {/* Card 1 */}
     <div className="bg-neutral-800 rounded-xl overflow-hidden shadow-lg">

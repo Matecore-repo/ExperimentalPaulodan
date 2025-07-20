@@ -3,7 +3,7 @@ import bg from '../resources/Background.png';
 
 const Hero: React.FC = () => {
   return (
-<section className="w-full h-screen flex justify-center items-center">
+<section id="hero" className="w-full h-screen flex justify-center items-center">
   <div
     className="w-[95%] max-w-9xl min-h-[95%] rounded-xl bg-cover bg-center p-10 text-center shadow-2xl text-white flex flex-col justify-center items-center"
     style={{ backgroundImage: `url(${bg})` }}

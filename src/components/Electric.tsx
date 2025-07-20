@@ -4,7 +4,7 @@ import electricistaImg from '../resources/Electricista.jpg';
 const Hero2Cmp: React.FC = () => {
     return (
 <>
-<section className="w-full h-screen flex justify-center items-center">
+<section id='electric' className="w-full h-screen flex justify-center items-center">
   <div className="flex flex-col md:flex-row w-[95%] h-[80%] items-center justify-center">
     {/* Imagen con margen derecho en desktop */}
     <div className="w-full md:w-1/2 h-full flex justify-center items-center md:mr-12">
@@ -27,7 +27,7 @@ const Hero2Cmp: React.FC = () => {
         de alta calidad para tu proyecto.
       </p>
       <a
-  href="#"
+  href="#slots"
   className="bg-blue-600 text-white hover:bg-blue-500 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 transform hover:scale-105"
 >
   Ver terrenos disponibles
