@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
                 </a>
                 <a
                   className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-white transition-all duration-200 hover:bg-white/20 hover:text-white"
-                  href="#"
+                  href="#electric"
                 >
                   Sistema
                 </a>
